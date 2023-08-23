@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: #15263F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: #2E405A;
+    border-radius: 15px;
+    width: 350px;
+    padding: 24px 24px 32px;
+}
+
+.img1{
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+}
+
+.eye{
+    height: 302px;
+    width: 302px;
+    background-color: #00fff771;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+}
+
+.container1{
+    position: relative;
+}
+
+.container1:hover .eye{
+    display: flex;
+    cursor: pointer;
+}
+
+.title{
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: white;
+    margin-top: 24px;
+    margin-bottom: 16px;
+
+}
+
+.title:hover{
+    color: #00FFF8;
+    cursor: pointer;
+}
+
+.description{
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    color: #8BACD9;
+    margin-bottom: 25px;
+
+}
+
+.container2{
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #00FFF8;
+    padding-bottom: 24px;
+}
+
+.time_clock{
+    display: flex;
+    align-items: center;
+}
+
+.time{
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #8BACD9;
+}
+
+.price{
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #00FFF8;
+}
+
+.container3{
+    display: flex;
+}
+
+.text{
+    color: #8BACD9;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 16px;
+}
+
+.name{
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: white;
+}
+
+.name:hover{
+    color: cyan;
+    cursor: pointer;
+}
